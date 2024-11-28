@@ -4,6 +4,8 @@ for (var i = 0; i < numbers.length; i++) {
     sum += numbers[i];
 }
 console.log(sum);
+
+//////////////////////////////////////////////////////////////////////////////////////
 function checknums() {
     for (var i = 0; i < numbers.length; i++) {
         if (numbers[i] < 0) {
@@ -14,7 +16,9 @@ function checknums() {
     console.log("All Positive");
 }
 checknums();
-var names = ["ali", "muhammed", "bassam", "hosam"];
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+var names = ["Rahaf", "Atef", "Abdalkareem", "Maryam"];
 var longestName = "";
 for (var i = 0; i < names.length; i++) {
     if (names[i] > longestName) {
@@ -22,8 +26,8 @@ for (var i = 0; i < names.length; i++) {
     }
 }
 console.log(longestName);
-var string = "potatoo";
-var character = "o";
+var string = "rahaf";
+var character = "a";
 var counter = 0;
 for (var i = 0; i < string.length; i++) {
     if (string[i] === character) {

@@ -1,4 +1,4 @@
-let numbers: number[] = [6, 2, 3, 5, 15, 18, 30, 40];
+let numbers: number[] = [6, 11, 3, 5, 15, 18, 30, 40];
 let sum: number = 0;
 for (let i = 0; i < numbers.length; i++) {
   sum += numbers[i];
@@ -16,7 +16,7 @@ function checknums() {
 }
 checknums();
 
-let names: string[] = ["ali", "muhammed", "bassam", "hosam"];
+let names: string[] = ["Rahaf", "Atef", "Abdalkareem", "Maryam"];
 let longestName: string = "";
 for (let i = 0; i < names.length; i++) {
   if (names[i] > longestName) {
@@ -25,7 +25,7 @@ for (let i = 0; i < names.length; i++) {
 }
 console.log(longestName);
 
-let string: string = "potatoo";
+let string: string = "Chips";
 let character: string = "o";
 let counter: number = 0;
 for (let i = 0; i < string.length; i++) {

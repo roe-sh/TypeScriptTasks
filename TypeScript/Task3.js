@@ -3,7 +3,7 @@ var person = {
     age: 23
 };
 if (person.age > 18) {
-    console.log("Pass");
+    console.log("Adult");
 }
 else {
     console.log("Minor");
@@ -16,7 +16,7 @@ teacher.subjects.forEach(function (subject) {
     console.log(subject);
 });
 var products = [
-    { name: "Chips", price: 10, quantity: 6 },
+    { name: "Chips", price: 1000, quantity: 6 },
     { name: "Candy", price: 20, quantity: 4 },
     { name: "Juice", price: 50, quantity: 10 }
 ];
